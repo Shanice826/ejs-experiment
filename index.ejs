@@ -1,0 +1,29 @@
+<%- include("layout/header")%>
+    <main>
+            <form action="/" method="post">
+  
+             <input type="text" placeholder="Enter a Programming language." name="programmingLanguages">
+             <button type="submit">Add Data</button>
+      </form>
+     <ul>
+   <% if(programmingLanguages.length> 0){ %>
+       
+<%  for(let i = 0; i <programmingLanguages.length; i++){ %>
+              <li><%=programmingLanguages[i]%></li>
+        <%  }  %>
+
+
+      <% } else {  %>
+      <p>no data.</p>
+     <%  }   %>
+ 
+  
+       
+      
+      
+     </ul>
+    
+    </main>
+<%-include("layout/footer")%>
+</body> 
+</html> 

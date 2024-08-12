@@ -1,0 +1,46 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+header {
+    background-color: black;
+    padding: 1rem 2rem;   
+    height: 5vh;
+}
+
+nav ul{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+a {
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: orange;
+    transition: all 0.3s;
+}
+
+main{
+    padding: 1rem 2rem;
+    height: 90vh;
+}
+footer{
+    padding: 1rem 2rem;
+    height: 5vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+}
+input{
+    width: 20rem;
+}
